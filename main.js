@@ -31,6 +31,6 @@ btn.addEventListener('click', (e) => {
 addBtn.addEventListener("click", (e) => {
     let a = prompt("savol kiriting...");
     let create = document.createElement("p")
-    let b = create.textContent = a; console.log(create);
+    let b = create.textContent = "Siz kiritgan savol: " + a;
     wrap.appendChild(create)
 })
